@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "Repository Push Notification"
           to: "jyri.vaitmaa@tthk.ee"
-          from: "targe22ko@gmail.com"
+          from: "kaspar.olman97@gmail.com"
           body: |
             Repository: ${{github.repository}}
             Committer: ${{github.event.pusher.name}}
